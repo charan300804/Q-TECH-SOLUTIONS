@@ -1,0 +1,168 @@
+/* General Page Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #222222, #444444); /* Black & Dark Grey */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+/* Chatbot Container */
+.chat-container {
+    width: 750px;  /* Increased Width */
+    height: 650px; /* Increased Height */
+    max-width: 95%;
+    background: linear-gradient(135deg, #ffffff, #f0f0f0); /* White & Silver */
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 15px 40px rgba(255, 215, 0, 0.4); /* Gold Glow */
+    text-align: center;
+    border: 4px solid gold; /* Gold Border */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Chatbot Title */
+h2 {
+    margin: 0;
+    font-size: 30px;
+    color: gold; /* Gold Title */
+    font-weight: bold;
+}
+
+/* Chatbox Styling */
+#chat-box {
+    flex: 1;
+    max-height: 500px; /* Increased Height */
+    overflow-y: auto;
+    padding: 20px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.95); /* Soft White Background */
+    border: 3px solid silver;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Scrollbar Styling */
+#chat-box::-webkit-scrollbar {
+    width: 10px;
+}
+
+#chat-box::-webkit-scrollbar-thumb {
+    background: gold; /* Gold Scrollbar */
+    border-radius: 5px;
+}
+
+#chat-box::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Input Container */
+.input-container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+/* Input Field */
+input {
+    flex: 1;
+    padding: 16px;
+    border: 3px solid silver;
+    border-radius: 10px;
+    font-size: 18px;
+    outline: none;
+    transition: 0.3s;
+    background: #222;
+    color: white;
+}
+
+input:focus {
+    border-color: gold;
+    box-shadow: 0 0 12px rgba(255, 215, 0, 0.6); /* Gold Glow */
+}
+
+/* Send Button */
+button {
+    padding: 14px 18px;
+    border: none;
+    background: linear-gradient(135deg, gold, #ffcc00);
+    color: black;
+    font-size: 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 6px 15px rgba(255, 215, 0, 0.5); /* Gold Glow */
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ffcc00, gold);
+    transform: scale(1.08);
+}
+
+/* Chat Message Bubbles */
+.message {
+    padding: 16px;
+    border-radius: 14px;
+    width: fit-content;
+    max-width: 85%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* User Messages */
+.user {
+    background: linear-gradient(135deg, gold, #ffcc00);
+    color: black;
+    align-self: flex-end;
+    text-align: right;
+    margin-left: auto;
+    border-bottom-right-radius: 2px;
+}
+
+/* Bot Messages */
+.bot {
+    background: linear-gradient(135deg, silver, white);
+    color: black;
+    align-self: flex-start;
+    text-align: left;
+    margin-right: auto;
+    border-bottom-left-radius: 2px;
+}
+
+/* Typing Indicator */
+.typing {
+    font-style: italic;
+    opacity: 0.8;
+    color: gold;
+}
+
+/* Error Message */
+.error {
+    color: white;
+    background: #ff4444;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 800px) {
+    .chat-container {
+        width: 95%;
+        height: 90%;
+    }
+
+    input {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 20px;
+    }
+}

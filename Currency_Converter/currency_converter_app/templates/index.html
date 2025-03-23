@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter & Prediction</title>
+</head>
+<body>
+    <h1>Currency Converter & Prediction</h1>
+    
+    <form method="POST">
+        <label>Base Currency:</label>
+        <select name="base_currency">
+            {% for currency in currencies %}
+                <option value="{{ currency }}">{{ currency }}</option>
+            {% endfor %}
+        </select>
+
+        <label>Target Currency:</label>
+        <select name="target_currency">
+            {% for currency in currencies %}
+                <option value="{{ currency }}">{{ currency }}</option>
+            {% endfor %}
+        </select>
+
+        <label>Amount:</label>
+        <input type="number" name="amount" step="0.01" required>
+
+        <label>Predict Future Days:</label>
+        <input type="number" name="future_days" value="7" required>
+
+        <button type="submit">Convert & Predict</button>
+    </form>
+
+    {% if converted_value %}
+        <h2>Converted Amount: {{ converted_value }}</h2>
+    {% endif %}
+
+    {% if predicted_rates %}
+        <h2>Predicted Exchange Rates</h2>
+        <ul>
+            {% for rate in predicted_rates %}
+                <li>Day {{ rate.Day }}: {{ rate["Predicted Rate"] }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>

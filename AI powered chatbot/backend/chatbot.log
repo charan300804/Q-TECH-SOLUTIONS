@@ -1,0 +1,48 @@
+2025-03-15 18:20:34,544 - WARNING - \u26a0\ufe0f Redis not available. Falling back to in-memory rate limiting.
+2025-03-15 18:20:34,554 - INFO - \u23f3 Background task running...
+2025-03-15 18:20:34,554 - INFO - \U0001f680 Starting Flask server on port 5001, debug=True
+2025-03-15 18:20:34,628 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.228.1:5001
+2025-03-15 18:20:34,630 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-15 18:20:34,635 - INFO -  * Restarting with stat
+2025-03-15 18:20:39,349 - WARNING - \u26a0\ufe0f Redis not available. Falling back to in-memory rate limiting.
+2025-03-15 18:20:39,380 - INFO - \u23f3 Background task running...
+2025-03-15 18:20:39,380 - INFO - \U0001f680 Starting Flask server on port 5001, debug=True
+2025-03-15 18:20:39,396 - WARNING -  * Debugger is active!
+2025-03-15 18:20:39,396 - INFO -  * Debugger PIN: 122-706-061
+2025-03-15 18:20:53,940 - INFO - \u2705 Home page accessed
+2025-03-15 18:20:53,958 - INFO - 192.168.228.1 - - [15/Mar/2025 18:20:53] "GET / HTTP/1.1" 200 -
+2025-03-15 18:20:54,165 - INFO - 192.168.228.1 - - [15/Mar/2025 18:20:54] "GET /static/style.css HTTP/1.1" 200 -
+2025-03-15 18:20:54,245 - INFO - 192.168.228.1 - - [15/Mar/2025 18:20:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-15 18:21:08,280 - INFO - \U0001f534 Shutting down gracefully...
+2025-03-15 18:21:08,430 - INFO - \U0001f534 Shutting down gracefully...
+2025-03-15 18:57:00,599 - WARNING - \u26a0\ufe0f Redis not available. Falling back to in-memory rate limiting.
+2025-03-15 18:57:00,610 - INFO - \u23f3 Background task running...
+2025-03-15 18:57:00,612 - INFO - \U0001f680 Starting Flask server on port 5001, debug=True
+2025-03-15 18:57:00,670 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.228.1:5001
+2025-03-15 18:57:00,670 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-15 18:57:00,672 - INFO -  * Restarting with stat
+2025-03-15 18:57:05,434 - WARNING - \u26a0\ufe0f Redis not available. Falling back to in-memory rate limiting.
+2025-03-15 18:57:05,445 - INFO - \u23f3 Background task running...
+2025-03-15 18:57:05,445 - INFO - \U0001f680 Starting Flask server on port 5001, debug=True
+2025-03-15 18:57:05,465 - WARNING -  * Debugger is active!
+2025-03-15 18:57:05,467 - INFO -  * Debugger PIN: 122-706-061
+2025-03-15 18:57:12,468 - INFO - \u2705 Home page accessed
+2025-03-15 18:57:12,479 - INFO - 192.168.228.1 - - [15/Mar/2025 18:57:12] "GET / HTTP/1.1" 200 -
+2025-03-15 18:57:12,576 - INFO - 192.168.228.1 - - [15/Mar/2025 18:57:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-15 18:57:12,643 - INFO - 192.168.228.1 - - [15/Mar/2025 18:57:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-15 18:57:35,845 - INFO - User: what is an FAQ? | Bot: FAQ stands for 'Frequently Asked Questions.' It is a collection of commonly asked questions and their corresponding answers about a specific topic, product, or service. FAQs help users find information quickly without having to contact customer support. They cover common concerns, troubleshooting steps, and general guidance, making them a useful resource for customers, employees, and website visitors looking for quick solutions to their queries.
+2025-03-15 18:57:35,845 - INFO - 192.168.228.1 - - [15/Mar/2025 18:57:35] "POST /chat HTTP/1.1" 200 -
+2025-03-15 18:58:00,612 - INFO - \u23f3 Background task running...
+2025-03-15 18:58:05,445 - INFO - \u23f3 Background task running...
+2025-03-15 18:58:16,178 - INFO - User: can i modify content from the platform? | Bot: I'm sorry, I couldn't find an answer to your question.
+2025-03-15 18:58:16,179 - INFO - 192.168.228.1 - - [15/Mar/2025 18:58:16] "POST /chat HTTP/1.1" 200 -
+2025-03-15 18:59:00,615 - INFO - \u23f3 Background task running...
+2025-03-15 18:59:05,446 - INFO - \u23f3 Background task running...
+2025-03-15 18:59:28,655 - INFO - User: Can I modify content from the platform? | Bot: I'm sorry, I couldn't find an answer to your question.
+2025-03-15 18:59:28,656 - INFO - 192.168.228.1 - - [15/Mar/2025 18:59:28] "POST /chat HTTP/1.1" 200 -

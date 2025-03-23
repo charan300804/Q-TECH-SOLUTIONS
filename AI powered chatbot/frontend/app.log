@@ -1,0 +1,24 @@
+2025-03-15 18:20:42,780 - INFO - \U0001f680 Starting Flask server on port 5001, debug=True
+2025-03-15 18:20:42,780 - INFO - \U0001f4c2 Template folder path: C:\Users\SHIVA CHARAN\OneDrive\Desktop\Q Tech Solutions\AI powered chatbot\frontend\templates
+2025-03-15 18:20:42,851 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.228.1:5001
+2025-03-15 18:20:42,851 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-15 18:20:42,853 - INFO -  * Restarting with stat
+2025-03-15 18:20:43,197 - INFO - \U0001f680 Starting Flask server on port 5001, debug=True
+2025-03-15 18:20:43,207 - INFO - \U0001f4c2 Template folder path: C:\Users\SHIVA CHARAN\OneDrive\Desktop\Q Tech Solutions\AI powered chatbot\frontend\templates
+2025-03-15 18:20:43,236 - WARNING -  * Debugger is active!
+2025-03-15 18:20:43,240 - INFO -  * Debugger PIN: 122-706-061
+2025-03-15 18:57:01,688 - INFO - \U0001f680 Starting Flask server on port 5001, debug=True
+2025-03-15 18:57:01,689 - INFO - \U0001f4c2 Template folder path: C:\Users\SHIVA CHARAN\OneDrive\Desktop\Q Tech Solutions\AI powered chatbot\frontend\templates
+2025-03-15 18:57:01,767 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.228.1:5001
+2025-03-15 18:57:01,767 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-15 18:57:01,769 - INFO -  * Restarting with stat
+2025-03-15 18:57:02,199 - INFO - \U0001f680 Starting Flask server on port 5001, debug=True
+2025-03-15 18:57:02,200 - INFO - \U0001f4c2 Template folder path: C:\Users\SHIVA CHARAN\OneDrive\Desktop\Q Tech Solutions\AI powered chatbot\frontend\templates
+2025-03-15 18:57:02,225 - WARNING -  * Debugger is active!
+2025-03-15 18:57:02,231 - INFO -  * Debugger PIN: 122-706-061
